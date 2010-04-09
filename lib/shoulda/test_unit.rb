@@ -7,10 +7,6 @@ require 'shoulda/macros'
 require 'shoulda/helpers'
 require 'shoulda/autoload_macros'
 
-if (defined?(Rails.root) && Rails.root) || defined?(RAILS_ROOT)
-  require 'shoulda/rails'
-end
-
 module Test # :nodoc: all
   module Unit
     class TestCase
